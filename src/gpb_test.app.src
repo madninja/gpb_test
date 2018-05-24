@@ -1,0 +1,10 @@
+{application, gpb_test,
+ [{description, "A demo library for showing gpb issues "},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env,[]}
+ ]}.
